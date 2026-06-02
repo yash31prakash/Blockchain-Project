@@ -2,6 +2,9 @@
 
 A complete, working full-stack decentralized application built on the **Stellar network** using **Soroban smart contracts** and a modern **Next.js 14** web frontend. This project implements a secure, auto-compounding savings vault where users can deposit Testnet XLM to mint interest-bearing shares. As yield is injected into the pool (simulating staking rewards, lending yields, or compound interest), the underlying pool grows relative to outstanding shares. Users can burn their shares to withdraw their proportional share of the vault's assets, capturing their compounded yield.
 
+**Deployed Contract ID (Testnet)**: `CDBYXWNYOO322YDZD3U53HZHBFOY5DFC5GGEFRDPCK3B7GDO6FJLHMSJ`
+**Explorer Link**: [https://stellar.expert/explorer/testnet/contract/CDBYXWNYOO322YDZD3U53HZHBFOY5DFC5GGEFRDPCK3B7GDO6FJLHMSJ](https://stellar.expert/explorer/testnet/contract/CDBYXWNYOO322YDZD3U53HZHBFOY5DFC5GGEFRDPCK3B7GDO6FJLHMSJ)
+
 ---
 
 ## Tech Stack
@@ -134,7 +137,7 @@ This will download `@stellar/stellar-sdk`, `@stellar/freighter-api`, React, Tail
     ```
 2.  Open `.env.local` and paste your deployed Contract ID from Step 3 into the field:
     ```env
-    NEXT_PUBLIC_CONTRACT_ID=YOUR_DEPLOYED_CONTRACT_ID_HERE
+    NEXT_PUBLIC_CONTRACT_ID=CDBYXWNYOO322YDZD3U53HZHBFOY5DFC5GGEFRDPCK3B7GDO6FJLHMSJ
     ```
 
 ---
