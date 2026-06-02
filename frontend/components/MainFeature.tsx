@@ -20,7 +20,7 @@ import { getXlmBalance } from "../lib/stellar";
 import { VaultInfo, UserPosition } from "../types";
 
 // Native Stellar token contract ID on Testnet
-const NATIVE_TOKEN_CONTRACT = "CDLZFC3SYJYDZT7K67VZ75HPJGWNJNXUDURHJGW54G37UH4EKKMHK7VW";
+const NATIVE_TOKEN_CONTRACT = "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC";
 
 interface MainFeatureProps {
   publicKey: string | null;
